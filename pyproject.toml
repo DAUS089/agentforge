@@ -1,0 +1,88 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentforge"
+version = "0.2.0"
+description = "🔥 Forge intelligent AI agents with CrewAI - Transform ideas into powerful multi-agent systems"
+readme = "README.md"
+authors = [
+    {name = "AgentForge Team", email = "team@agentforge.dev"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = ["ai", "multi-agent", "crewai", "automation", "agents", "forge", "intelligent", "ai-agents"]
+requires-python = ">=3.10"
+dependencies = [
+    "crewai",
+    "crewai-tools",
+    "pydantic",
+    "python-dotenv",
+    "rich",
+    "typer",
+    "openai",
+    "pyyaml",
+    "langchain-anthropic",
+    "langchain-google-genai",
+    "langchain-openai",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "pre-commit>=3.0.0",
+]
+web = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.23.0",
+    "jinja2>=3.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/AgentForge/agentforge"
+Documentation = "https://github.com/AgentForge/agentforge#readme"
+Repository = "https://github.com/AgentForge/agentforge"
+Issues = "https://github.com/AgentForge/agentforge/issues"
+Changelog = "https://github.com/AgentForge/agentforge/blob/main/CHANGELOG.md"
+
+[project.scripts]
+agentforge = "agentforge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agentforge*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+select = ["E", "F", "W", "I", "N", "UP", "S", "B", "A", "COM", "C4", "DTZ", "T10", "EM", "EXE", "ISC", "ICN", "G", "PIE", "T20", "PYI", "PT", "Q", "RSE", "RET", "SLF", "SIM", "TID", "TCH", "INT", "ARG", "PTH", "PD", "PGH", "PL", "TRY", "NPY", "RUF"]
+ignore = ["S101", "S104", "S105", "S106", "S107", "S108", "COM812", "ISC001"]
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.uv.workspace]
+members = [
+    "crews/blog_writer_04",
+]

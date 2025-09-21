@@ -1,0 +1,26 @@
+[project]
+name = "simple_writer"
+version = "1.0.0"
+description = "AI-orchestrated crew for: Create a simple text generator that writes basic content without external tools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "crewai",
+    "crewai-tools",
+    "pydantic",
+    "pyyaml"
+]
+
+[project.scripts]
+simple_writer = "src.simple_writer.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0"
+]

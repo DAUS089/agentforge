@@ -1,0 +1,36 @@
+Social Media Content Language_Model Specialist_specialist:
+  allow_delegation: false
+  backstory: You are an experienced Social Media Content Language_Model Specialist
+    with a proven track record of delivering high-quality results in collaborative
+    environments.
+  goal: Execute Social Media Content Language_Model Specialist tasks with excellence
+    and collaborate effectively with the team
+  llm:
+    max_tokens: 2000
+    model: ollama/llama3.2:latest
+    provider: ollama
+    temperature: 0.7
+  max_iter: 5
+  role: Social Media Content Language_Model Specialist
+  tools:
+  - FileReadTool
+  - CodeInterpreterTool
+  verbose: true
+Social Media Content Text_Generator Specialist_specialist:
+  allow_delegation: false
+  backstory: You are an experienced Social Media Content Text_Generator Specialist
+    with a proven track record of delivering high-quality results in collaborative
+    environments.
+  goal: Execute Social Media Content Text_Generator Specialist tasks with excellence
+    and collaborate effectively with the team
+  llm:
+    max_tokens: 2000
+    model: ollama/llama3.2:latest
+    provider: ollama
+    temperature: 0.7
+  max_iter: 5
+  role: Social Media Content Text_Generator Specialist
+  tools:
+  - FileReadTool
+  - CodeInterpreterTool
+  verbose: true

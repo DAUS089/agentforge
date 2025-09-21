@@ -1,0 +1,14 @@
+main_task:
+  description: Create a simple text generator that writes basic content without external
+    tools
+  expected_output: 'Complete results for: Create a simple text generator that writes
+    basic content without external tools'
+  agent: Social Media Content Text_Generator Specialist_specialist
+social media content language_model specialist_task:
+  description: As a Social Media Content Language_Model Specialist, process the research
+    findings and create deliverable outputs based on your expertise.
+  expected_output: Actionable deliverables and outputs from a Social Media Content
+    Language_Model Specialist perspective
+  agent: Social Media Content Language_Model Specialist_specialist
+  context:
+  - main_task

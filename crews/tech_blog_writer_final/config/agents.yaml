@@ -1,0 +1,75 @@
+Social Media Content Content Creator_specialist:
+  allow_delegation: false
+  backstory: You are an experienced Social Media Content Content Creator with a proven
+    track record of delivering high-quality results in collaborative environments.
+  goal: Execute Social Media Content Content Creator tasks with excellence and collaborate
+    effectively with the team
+  llm:
+    max_tokens: 2000
+    model: ollama/llama3.2:latest
+    provider: ollama
+    temperature: 0.7
+  max_iter: 5
+  role: Social Media Content Content Creator
+  tools:
+  - api_calls
+  - file_operations
+  - document_search
+  - code_execution
+  verbose: true
+Social Media Content Editor Specialist_specialist:
+  allow_delegation: false
+  backstory: You are an experienced Social Media Content Editor Specialist with a
+    proven track record of delivering high-quality results in collaborative environments.
+  goal: Execute Social Media Content Editor Specialist tasks with excellence and collaborate
+    effectively with the team
+  llm:
+    max_tokens: 2000
+    model: ollama/llama3.2:latest
+    provider: ollama
+    temperature: 0.7
+  max_iter: 5
+  role: Social Media Content Editor Specialist
+  tools:
+  - api_calls
+  - file_operations
+  verbose: true
+Social Media Content Research Specialist_specialist:
+  allow_delegation: false
+  backstory: You are an experienced Social Media Content Research Specialist with
+    a proven track record of delivering high-quality results in collaborative environments.
+  goal: Execute Social Media Content Research Specialist tasks with excellence and
+    collaborate effectively with the team
+  llm:
+    max_tokens: 2000
+    model: ollama/llama3.2:latest
+    provider: ollama
+    temperature: 0.7
+  max_iter: 5
+  role: Social Media Content Research Specialist
+  tools:
+  - api_calls
+  - github_search
+  - file_operations
+  - code_execution
+  verbose: true
+Social Media Content Research_Assistant Specialist_specialist:
+  allow_delegation: false
+  backstory: You are an experienced Social Media Content Research_Assistant Specialist
+    with a proven track record of delivering high-quality results in collaborative
+    environments.
+  goal: Execute Social Media Content Research_Assistant Specialist tasks with excellence
+    and collaborate effectively with the team
+  llm:
+    max_tokens: 2000
+    model: ollama/llama3.2:latest
+    provider: ollama
+    temperature: 0.7
+  max_iter: 5
+  role: Social Media Content Research_Assistant Specialist
+  tools:
+  - database_search
+  - api_calls
+  - file_operations
+  - document_search
+  verbose: true

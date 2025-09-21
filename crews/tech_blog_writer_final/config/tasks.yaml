@@ -1,0 +1,30 @@
+main_task:
+  description: Create a simple blog writer who can write informative blog posts about
+    technology topics
+  expected_output: 'Complete results for: Create a simple blog writer who can write
+    informative blog posts about technology topics'
+  agent: Social Media Content Research Specialist_specialist
+social media content research_assistant specialist_task:
+  description: As a Social Media Content Research_Assistant Specialist, process the
+    research findings and create deliverable outputs based on your expertise.
+  expected_output: Actionable deliverables and outputs from a Social Media Content
+    Research_Assistant Specialist perspective
+  agent: Social Media Content Research_Assistant Specialist_specialist
+  context:
+  - main_task
+social media content content creator_task:
+  description: As a Social Media Content Content Creator, process the research findings
+    and create deliverable outputs based on your expertise.
+  expected_output: Actionable deliverables and outputs from a Social Media Content
+    Content Creator perspective
+  agent: Social Media Content Content Creator_specialist
+  context:
+  - social media content research_assistant specialist_task
+social media content editor specialist_task:
+  description: As a Social Media Content Editor Specialist, process the research findings
+    and create deliverable outputs based on your expertise.
+  expected_output: Actionable deliverables and outputs from a Social Media Content
+    Editor Specialist perspective
+  agent: Social Media Content Editor Specialist_specialist
+  context:
+  - social media content content creator_task
